@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:sans-serif;
+}
+.container {
+    max-width: 1860px;
+    margin: 0 auto;
+}
+
+header {
+    color: white;
+    background: #313f38;
+    padding-top: 18px;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav h3 {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.header__nav ul {
+    display: flex;
+    column-gap: 70px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    text-transform: uppercase;
+}
+.header__nav p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+}
+.text{
+    background: #313f38;
+}
+.text__main{
+    display: flex;
+    padding-top: 108px;
+    justify-content: space-between;
+}
+.rectangle{
+    display: flex;
+    width: 248px;
+    height: 70px;
+    border-radius: 99px;
+    border: solid white;
+    stroke-width: 1px;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 96px;
+}
+.rectangle img{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+.text__left h1{
+    font-weight: 400;
+    font-size: 220px;
+    line-height: 91%;
+    color: white;
+    color: gold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text__left h4{
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: gold;
+    margin-top: 58px;
+}
+.text__center p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: white;
+}
+.default{
+    width: 70px;
+    height: 70px;
+    background: none;
+    border: 1px solid white;
+    position: relative;
+}
+.image{
+    background: #313f38;
+    padding-top: 95px;
+}
+.tabels{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    margin-top: 100px;
+    color: white;
+}
+.tabels__number{
+    color: gold;
+}
+.tabels__left{
+    text-align: end;
+}
+.about{
+    background: #313f38;
+    padding: 251px 0 300px;
+}
+.about__main{
+    display: flex;
+    justify-content: space-between;
+}
+.about__text h1{
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 87%;
+    text-transform: uppercase;
+    color: gold;
+    margin-top: 160px;
+}
+.about__text h2{
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 87%;
+    text-transform: uppercase;
+    text-align: right;
+    color: white;
+}
+.about__text h4{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: white;
+    margin: 180px 0 41px;
+}
+.about__text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    color: white;
+}
+.apartments{
+    margin-top: 300px;
+}
+.rooms__top{
+    display: flex;
+    justify-content: space-between;
+}
+.rooms__top h1{
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 87%;
+    text-transform: uppercase;
+}
+.rooms__top p{
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase
+}
+.rooms__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 376px;
+    height: 757px;
+}
+.rectangle2{
+    display: flex;
+    width: 248px;
+    height: 70px;
+    border-radius: 99px;
+    border: 1px solid black;
+    stroke-width: 1px;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 96px;
+}
+.rectangle2 img{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+.rooms__left{
+    margin-top: 150px;
+}
+.rooms__center{
+    margin-top: 150px;
+}
+.rooms__center h3{
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-top: 364px;
+}
+.rooms__center p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+}
+.facilities__top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 500px;
+}
+.facilities__top p{
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.facilities__top h1{
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 87%;
+    text-transform: uppercase;
+}
+.facilities__top img{
+    width: 443px;
+    height: 286px;
+    position: relative;
+    top: 112px;
+}
+.facilities__top img::before{
+    content: '';
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    right: 190px;
+    bottom: 90px;
+    background: url(img/label.png)center/cover no-repeat;
+}
+.facilities__center{
+    display: flex;
+}
+.facilities__center img{
+    width: 443px;
+    height: 286px;
+}
+.facilities__center p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    margin: 146px 0 0 187px;
+}
+.facilities__bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.bottom__img{
+    width: 170px;
+    height: 170px;
+    margin-top: 442px;
+}
+.facilities__bottom h1{
+    font-weight: 400;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-top: 96px;
+}
+.facilities__bottom h2{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin: 249px 0 40px;
+}
+.facilities__bottom p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+}
+.facilities__card{
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.facilities__card h3{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+.facilities__card h4{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize
+}
+.banner{
+    background: url(img/best\ apartments.png)center/cover no-repeat;
+    height: 1080px;
+}
+.gallery{
+    background: #313f38;
+    padding: 300px 0;
+    height: 2160px;
+    position: relative;
+}
+.gallery__main p{
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: white;
+}
+.gallery__center h1{
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 87%;
+    text-transform: uppercase;
+    text-align: center;
+    color: gold;
+    margin: 73px 0 70px 226px;
+}
+.gallery__center p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: white;
+}
+.gallery__img{
+    position: relative;
+    text-align: center;
+}
+.gallery__img1{
+    position: absolute;
+    right: 450px;
+    top: 300px;
+    width: 960px;
+    height: 600px;
+}
+.gallery__img2{
+    position: absolute;
+    left: -20px;
+}
+.gallery__img3{
+    position: absolute;
+    left: 0;
+    top: 700px;
+}
+.gallery__img4{
+    position: absolute;
+    right: -20px;
+}
+.gallery__img5{
+    position: absolute;
+    right: 0;
+    top: 1000px;
+}
+.gallery__img p{
+    text-align: start;
+    position: absolute;
+    top: 1000px;
+    left: 600px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+}   
+.gallery__img p::before{
+    content: '';
+    background: url(img/Polygon\ 7.png)center/cover no-repeat;
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    right: 80px;
+}
+.touch{
+    padding: 300px 0;
+}
+.touch span{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100%;
+}
+.touch__top{
+    position: relative;
+}
+.touch__top p{
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: end;
+    margin: 83px 150px 162px;
+}
+.touch__top h1{
+    font-weight: 400;
+    font-size: 300px;
+    line-height: 100%;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+.touch__top h1::after{
+    content: '';
+    background: url(img/Star\ 5.png)center/cover no-repeat;
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    left: 1030px;
+    bottom: 70px;
+}
+.touch__top img{
+    margin-left: 1400px;
+    z-index: 0;
+    margin-top: -300px;
+}
+.touch__top h2{
+    font-weight: 400;
+    font-size: 300px;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin: 50px 0 0 844px;
+    position: absolute;
+    top: 500px;
+    color: gold;
+    z-index: 12;
+}
+.touch__bottom{
+    width: 915px;
+    height: 221px;
+    border: none;
+    margin-top: 400px;
+}
+.touch__bottom h5{
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.touch__button{
+    height: 140px;
+    border: 1px solid black;
+    display: flex;
+    column-gap: 202px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.touch__button p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+.touch__button p::after{
+    content: '';
+    background: url(img/Vector\ 3.png)center/cover no-repeat;
+    width: 16px;
+    height: 7px;
+    position: absolute;
+    display: block;
+    left: 175px;
+    bottom: 5px;
+}
+.touch__button button{
+    width: 285px;
+    height: 140px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 111%;
+    text-transform: uppercase;
+    text-align: center;
+    background: #313f38;
+}
+.footer{
+    padding-bottom: 130px;
+    padding: 0 150px 130px;
+}
+.footer__main{
+    display: flex;
+    padding-top: 100px;
+    width: 1860px;
+    height: 349px;
+    column-gap: 200px;
+}
+.footer__main h3{
+    font-weight: 400;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.footer__left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: rgba(0, 0, 0, 0.2);
+    margin: 40px 0 70px;
+}
+.footer__left span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: c
+}
+.footer__center p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    margin: 40px 0 30px;
+}
+.footer__center input{
+    width: 285px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.footer__center input::after{
+    content: '';
+    background: url(img/Group\ 4596.png)center/cover no-repeat;
+    position: absolute;
+    display: block;
+    right: 250px;
+    top: 25px;
+    width: 33px;
+    height: 19px;
+}
+.footer__soc{
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
